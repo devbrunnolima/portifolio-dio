@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvedor Front-End | Portfólio</title>
+  <meta name="description" content="Portfólio do desenvolvedor Front-End com experiência em HTML, CSS, JavaScript, React, e UX/UI Design.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-bl.png" alt="Logo do Desenvolvedor">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Interfaces Interativas &</b> Desenvolvimento Front-End</h1>
+      <p>Desenvolvedor Front-End com experiência em criar interfaces dinâmicas e acessíveis utilizando HTML, CSS, JavaScript e React.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/devbrunnolima" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/devbrunno-lima/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <img  src="assets/images/dev_web.jpg" alt="Logo HTML">
+    </div>
+  </main>
+</main>
+
+<section class="technologies">
+  <h2>Conhecimento em Tecnologias</h2>
+  <ul class="technologies__list">
+    <li class="technologies__item">
+      <img class="technologies__logo" src="assets/images/technologies/html-logo.svg" alt="Logo HTML">
+    </li>
+    <li class="technologies__item">
+      <img class="technologies__logo" src="assets/images/technologies/css-logo.svg" alt="Logo CSS">
+    </li>
+    <li class="technologies__item">
+      <img class="technologies__logo" src="assets/images/technologies/javascript-logo.svg" alt="Logo JavaScript">
+    </li>
+    <li class="technologies__item">
+      <img class="technologies__logo" src="assets/images/technologies/react-logo.svg" alt="Logo React">
+    </li>
+  </ul>
+</section>
+
+<section id="projetos" class="projects">
+  <h2>Projetos</h2>
+  <div class="projects__container">
+    <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/project-landingpage.jpg" alt="Landing Page">
+        <div class="card__body">
+            <h3 class="card__title">Landing Page de Serviços Online</h3>
+            <p class="card__description">Uma landing page projetada para oferecer uma variedade de serviços online, com design responsivo e atraente, construída com React e Vite.</p>
+            <ul class="card__list">
+                <li class="card__item">Interface amigável para apresentação de serviços;</li>
+                <li class="card__item">Formulário de contato para consultas e orçamentos;</li>
+                <li class="card__item">Otimização para conversão e captação de leads.</li>
+            </ul>
+            <ul class="technologies__list">
+                <li class="technologies__item">
+                    <img class="technologies__logo" src="assets/images/technologies/react-logo.svg" alt="Logo React">
+                </li>
+                <li class="technologies__item">
+                    <img class="technologies__logo" src="assets/images/technologies/javascript-logo.svg" alt="Logo JavaScript">
+                </li>
+            </ul>
+            <div class="card__buttons">
+                <a class="btn btn--primary" href="https://devbrunnolima.com.br/intermediario/landingpage_react/">
+                    <span>Live</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <a class="btn" href="https://github.com/devbrunnolima/react_sales_page">
+                    <span>Repositório</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="projects__card card--reverse">
+      <img class="card__cover" src="assets/images/projects/project-atende.jpg" alt="Projeto UX/UI">
+      <div class="card__body">
+        <h3 class="card__title">Atende Taboão da Serra</h3>
+        <p class="card__description">O site do Atende é um projeto do governo da Cidade de Taboão da Serra que reúne diversos serviços em um único local, facilitando o acesso da população a eles de forma online.</p>
+        <ul class="card__list">
+          <li class="card__item">Interface otimizada;</li>
+          <li class="card__item">Integração com serviços de terceiros;</li>
+          <li class="card__item">Design responsivo para dispositivos móveis.</li>
+        </ul>
+        <ul class="technologies__list">
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/html-logo.svg" alt="Logo html">
+          </li>
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/javascript-logo.svg" alt="Logo JavaScript">
+          </li>
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/css-logo.svg" alt="Logo CSS">
+          </li>
+        </ul>
+        <div class="card__buttons">
+          <a class="btn btn--primary" href="https://atende.ts.sp.gov.br/">
+            <span>Live</span>
+            <i class="bi bi-arrow-up-right"></i>
+        </a>
+        <a class="btn" href="#">
+            <span>Repositório</span>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="about">
+  <h2>Sobre</h2>
+  <div class="about__container">
+    <div class="about__img">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="Imagem de perfil">
+    </div>
+    <br>
+    <div class="about__content">
+      <p>Com 5 anos de experiência em desenvolvimento Front-End, crio interfaces dinâmicas, responsivas e acessíveis utilizando HTML, CSS, JavaScript e React. Também possuo forte conhecimento em boas práticas de UX/UI design, garantindo experiências de usuário otimizadas.</p>
+      <br>
+      <ul class="technologies__list">
+        <li class="technologies__item">
+          <img class="technologies__logo" src="assets/images/technologies/html-logo.svg" alt="Logo HTML">
+        </li>
+        <li class="technologies__item">
+          <img class="technologies__logo" src="assets/images/technologies/css-logo.svg" alt="Logo CSS">
+        </li>
+        <li class="technologies__item">
+          <img class="technologies__logo" src="assets/images/technologies/javascript-logo.svg" alt="Logo JavaScript">
+        </li>
+        <li class="technologies__item">
+          <img class="technologies__logo" src="assets/images/technologies/react-logo.svg" alt="Logo React">
+        </li>
+      </ul>
+      <br>
+      <br>
+      <p>Graduado em Sistemas de Informação, com foco em desenvolvimento de interfaces e certificações em UX/UI design.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="contact">
+  <h2>Contato</h2>
+  <div class="contact__container">
+    <form action="envio_email.php" method="post" class="form">
+      <div class="contact_item">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="contact_item">  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+      <div class="contact_item"> 
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea> 
+      </div>
+      <br>
+      <div class="contact__btn">
+        <button type="submit" class="btn btn--primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2024 Desenvolvedor Front-End - Todos os direitos reservados</p>
+</footer>
+
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
